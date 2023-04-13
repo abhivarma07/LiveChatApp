@@ -1,24 +1,28 @@
 
-# Getting Started with Create React App
+# Welcome to the Fullstack Live Chat Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+This project was created using React-Typescript , Nodejs and Socket.io.
 
-## Available Scripts
+## Production Urls:
 
-In the project directory, you can run:
+Live Site: https://main--euphonious-halva-2a0131.netlify.app
+Backend Server: https://livechatv1.onrender.com/api/v1/app
 
-### `npm start`
+You can clone the repository using git clone.
+
+For React-Type script setup head over to client side 
+
+### `npm install`
+
+Installs all the dependencies needed for the app\
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -28,20 +32,25 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For Nodejs Backend setup head over to server side 
 
-### `npm run eject`
+### `npm install`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Installs all the dependencies needed for the Server\
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run dev`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Runs the server in the development mode.\
+Server is hosted locally on port 8080 and apis can be accesed by using api/v1/app endpoint
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The server will reload if you make edits.\
+You will also see any errors in the console.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## StoryBook
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Storybook helps you build UI components in isolation from your app's business logic, data, and context. That makes it easy to develop hard-to-reach states. Save these UI states as stories to revisit during development, testing, or QA.
+
+This project also supports storybooks which can give you a wrap around for the various components and pages used in the app.
+You can also use those pages as they have been configured by using add ons to work , As these pages are dependent on each other 
+The right format to use these pages are: SigUp -> Login -> Avatar -> Chat
