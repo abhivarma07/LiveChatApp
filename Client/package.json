@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.11",
+    "@craco/craco": "^7.1.0",
     "@multiavatar/multiavatar": "^1.0.7",
     "@reduxjs/toolkit": "^1.9.3",
     "@storybook/addon-react-native-web": "^0.0.20",
@@ -39,8 +40,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
-    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "build": "craco build",
+    "start": "craco start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
@@ -48,6 +49,7 @@
     "compile": "graphql-codegen",
     "watch": "graphql-codegen -w"
   },
+  "homepage": ".",
   "eslintConfig": {
     "extends": [
       "react-app",
