@@ -6,7 +6,7 @@ This project was created using React-Typescript , Nodejs and Socket.io.
 ## Production Urls:
 
 Live Site: https://main--euphonious-halva-2a0131.netlify.app
-Backend Server: https://livechatv1.onrender.com/api/v1/app
+Backend Server: https://livechatapp-production.up.railway.app/api/v1/app
 
 You can clone the repository using git clone.
 
