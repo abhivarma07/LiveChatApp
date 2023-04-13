@@ -57,6 +57,7 @@ const Contacts: FC<props> = ({
       setAllChats([...data, _data.chat]);
       socket.current.emit("create-message", _data);
       setModalVisible(false);
+      window.location.reload(true)
     },
     onError: (err) => {
       console.log(err);
