@@ -42,7 +42,7 @@ const Chats: FC<props> = () => {
   const socket = useRef<any>();
 
   useEffect(() => {
-    socket.current = io("https://livechatapp-production.up.railway.app/");
+    socket.current = io("https://livechatapp-production.up.railway.app");
     socket.current.emit("new-user-add", user._id);
     socket.current.on("get-users", (users: any) => {
       setOnlineUsers(users);
