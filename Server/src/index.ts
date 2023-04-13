@@ -53,7 +53,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://euphonious-halva-2a0131.netlify.app/",
   },
 });
 
