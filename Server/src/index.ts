@@ -33,7 +33,8 @@ const connectToDB = async () => {
     await mongoose.connect(connectionString, {});
 
     console.log("Connected to database successfully");
-  } catch (_) {
+  }catch (err) {
+    console.log(err);
     const { message } = getErrorCode(errorNames.FAILED_TO_CONNECT_DATABASE);
     return new Error(message);
   }
