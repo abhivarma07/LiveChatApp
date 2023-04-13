@@ -10,7 +10,9 @@ Backend Server: https://livechatv1.onrender.com/api/v1/app
 
 You can clone the repository using git clone.
 
-For React-Type script setup head over to client side 
+## FrontEnd
+
+For React-Typescript setup head over to client side 
 
 ### `npm install`
 
@@ -31,6 +33,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Backend
 
 For Nodejs Backend setup head over to server side 
 
