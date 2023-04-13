@@ -8,7 +8,8 @@ import {
 import { setContext } from "@apollo/client/link/context";
 import { onError } from "@apollo/client/link/error";
 
-const prod = "http://localhost:8080/api/v1/app";
+const prod = "https://livechatv1.onrender.com/api/v1/app";
+const dev = "http://localhost:8080/api/v1/app";
 
 const httpLink = createHttpLink({
   uri: prod,
